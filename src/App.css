@@ -1,42 +1,33 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  background-color: #1c1b22 !important;
+  font-family: "Marko One", serif !important;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+ .ij{
+  position: absolute;
+ }
+
+
+
+ /* Scrollbar width */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the entire scrollbar */
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: transparent; /* Background color of the scrollbar track */
+  border-radius: 10px;  /* Rounded corners for the track */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Handle (scroll thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #4ade80;  /* Color of the scrollbar handle */
+  border-radius: 5px;      /* Rounded corners for the handle */
+  border: 3px solid transparent; /* Adds padding around the handle */
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4ade80; /* Darker color when hovering */
 }

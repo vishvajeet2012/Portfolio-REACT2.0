@@ -1,0 +1,156 @@
+.carousel-control-prev {
+  position: absolute;
+  top: 530px !important;
+
+  z-index: 1;
+  background: #4ade80 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: none;
+  width: 52px !important;
+  border: 0;
+  height: 52px;
+  left: 550px !important;
+  opacity: 1 !important;
+  transition: opacity 0.15s ease;
+}
+
+.carousel-control-next {
+  position: absolute;
+  top: 530px !important;
+  bottom: 0;
+  z-index: 1;
+  background: #4ade80 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: none;
+  width: 52px !important;
+  border: 0;
+  left: 620px !important;
+  height: 52px;
+  opacity: 1 !important;
+  transition: opacity 0.15s ease;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.carousel-control-next-icon::after , .carousel-control-prev-icon::after{
+  content: "";
+  --mdb-carousel-control-icon-font-size: 20px !important;
+  --mdb-carousel-control-icon-font-weight: 700;
+  font-weight: var(--mdb-carousel-control-icon-font-weight);
+  font-size: var(--mdb-carousel-control-icon-font-size);
+  font-family: "Font Awesome 6 Pro", "Font Awesome 6 Free";
+}
+
+
+.carousel-indicators {
+   display: none !important;
+}
+
+.projSec_1 {
+    order: 0;
+}
+
+.projSec_2 {
+    order: 1;
+}
+
+/* .project_img {
+
+} */
+
+@media screen and (max-width: 1200px) {
+    .carousel-control-prev {
+        left: 390px !important;
+    }
+
+    .carousel-control-next {
+        left: 470px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-control-prev {
+        top: 500px !important;
+        left: 280px !important;
+    }
+
+    .carousel-control-next {
+        top: 500px !important;
+        left: 360px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-control-prev {
+        top: 22% !important;
+        left: -11px !important;
+    }
+    .carousel-control-next {
+        top: 22% !important;
+        left: 92% !important;
+ 
+    }
+
+    .proDesri {
+        margin-top: 70px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .carousel-control-prev {
+        top: 22% !important;
+        left: 4% !important;
+        width: 40px !;
+        height: 40px !important;
+    }
+
+    .carousel-control-next {
+        top: 22% !important;
+        left:  85% !important;
+        width: 40px !;
+        height: 40px !important;
+    }
+}
+
+
+
+@media screen and (max-width:  470px) {
+    .carousel-control-prev {
+        top: 810px !important;
+        left: 190px !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .carousel-control-next {
+        top: 810px !important;
+        left: 240px !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .projSec_1 {
+        order: 1 !important;
+    }
+    
+    .projSec_2 {
+        order: 0 !important;
+    }
+}

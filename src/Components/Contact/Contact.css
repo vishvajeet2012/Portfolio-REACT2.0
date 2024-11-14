@@ -1,0 +1,41 @@
+.form_input {
+  background-color: #1c1b22 !important;
+  border: none !important;
+  font-size: 12px !important;
+  padding: 10px 10px !important;
+  color: #525252 !important;
+}
+
+.op_2:hover {
+  background-color: #4ade80 !important;
+}
+
+.send_messeage {
+  background-color: #4ade80 !important;
+  color: black !important;
+  border-radius: 20px !important;
+  font-size: 15px !important;
+  box-shadow: none !important;
+}
+
+.contact-card {
+  padding-left: 40px !important;
+}
+
+.main_detailss {
+  margin-left: 23px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-card {
+    padding-left: 5px !important;
+    margin: 40px 0;
+  }
+  .main_detailss {
+    margin-left: 0px;
+  }
+
+  .send_messeage {
+    margin: 0 auto;
+  }
+}
