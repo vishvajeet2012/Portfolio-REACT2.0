@@ -8,16 +8,7 @@ function ExperienceBox() {
       exName: "Mern Stack Developer",
       insti: "Grras Solutions ltd"
     },
-    // {
-    //   year: "Jun 2023 - July 2024",
-    //   exName: "Web Designer",
-    //   insti: "Dvg Soft ltd"
-    // },
-    // {
-    //   year: "April 2023 - Jun 2023",
-    //   exName: "Internship Web Design",
-    //   insti: "Git Solutions ltd"
-    // }
+    
   ];
 
   return (

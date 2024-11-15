@@ -9,16 +9,17 @@ import UrlBtn from "./UrlBtn/UrlBtn";
 
 function CarouselSec() {
   const projectData = [
-    // {
-    //   id: "01",
-    //   proName: "DVG Soft",
-    //   desc: "This frontend project for 'DVG Soft' was built using HTML5, CSS3, Bootstrap 5, and JavaScript. It features a clean, responsive layout showcasing various services offered by the company.",
-    //   tech: "Html 5, Css 3, Bootstrap  5, JavaScript",
-    //   img: dvgImg,
-    //   url: "https://dvgsoft.com/"
-    // },
     {
       id: "01",
+      proName: "ETM (Employee Task Manager )",
+      desc: "Employee Task Manager (ETM) is a React-based application designed to simplify and organize employee task management. Styled with Tailwind CSS for a sleek and responsive user interface, the system allows teams to effectively monitor and categorize tasks..",
+      tech: "React.js, Css 3, TailwindCss, JavaScript",
+      img: dvgImg,
+      url: "https://ecm-mern-vishuus-projects.vercel.app/",
+      gitUrl: "https://github.com/vishvajeet2012/Ecm-Mern"
+    },
+    {
+      id: "02",
       proName: "Indian Tourism",
       desc: "An interactive React-based website showcasing India's top travel destinations, local culture, and travel tips.",
       tech: "react.js, CSS ,Tailwind.css ,Redux ToolKit, JavaScript",
